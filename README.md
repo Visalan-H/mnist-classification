@@ -13,13 +13,25 @@ Include the neural network model diagram.
 ## DESIGN STEPS
 
 ### STEP 1:
-Write your own steps
+Import TensorFlow library as tf, or TensorFlow's Keras interface for a higher-level API.
 
 ### STEP 2:
+Utilize tf.keras.datasets.mnist.load_data() to obtain both training and testing datasets.
+Normalize pixel values by dividing by 255 to enhance training efficiency.
+Consider implementing one-hot encoding for labels to facilitate multi-class classification.
 
 ### STEP 3:
+Create a sequential model,I have added 2 Convolutional layers of 32 and 64 filters respectively and 2 max pooling layers of fliters having height 2 and width 2
+And then two dense layers having 128 and 10 neurons respectively
 
+### STEP 4:
+Define the optimizer (e.g., Adam), loss function (e.g., categorical_crossentropy), and metrics (e.g., accuracy) for model compilation.
 
+### STEP 5:
+Train the model using preferred epochs and include validation data to monitor the performance over time
+
+### STEP 6:
+Predict a new image and display its predictions
 ## PROGRAM
 
 ### Name:Visalan H
