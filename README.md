@@ -5,10 +5,12 @@
 To Develop a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images.
 
 ## Problem Statement and Dataset
+Problem Statement: Develop a CNN model for accurately recognizing handwritten digits (0-9) from the MNIST dataset.
 
+Data: MNIST dataset comprises 28x28 pixel grayscale images of handwritten digits, each labeled with the corresponding digit (0-9).
 ## Neural Network Model
 
-Include the neural network model diagram.
+![image](https://github.com/Visalan-H/mnist-classification/assets/152077751/f5a57661-a847-4031-af50-d079db07388d)
 
 ## DESIGN STEPS
 
