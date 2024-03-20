@@ -148,4 +148,4 @@ Sample Input:
 ![image](https://github.com/Visalan-H/mnist-classification/assets/152077751/dee36b27-2f78-42b5-b867-987d050c80dd)
 
 ## RESULT
-Include your result here.
+Thus, a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is written and executed successfully.
