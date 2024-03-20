@@ -13,7 +13,7 @@ Include the neural network model diagram.
 ## DESIGN STEPS
 
 ### STEP 1:
-Import TensorFlow library as tf, or TensorFlow's Keras interface for a higher-level API.
+Import TensorFlow ,Keras,Numpy,Matplotlib and other required libraries.
 
 ### STEP 2:
 Utilize tf.keras.datasets.mnist.load_data() to obtain both training and testing datasets.
